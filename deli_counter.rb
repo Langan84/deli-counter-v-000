@@ -16,4 +16,3 @@ def take_a_number(katz_deli, input)
 puts "Welcome, #{input}. You are number #{index+1} in line.
   katz_deli.push(input)
 end
-end
