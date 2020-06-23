@@ -10,9 +10,9 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, input)
-  input = " "
- input = gets.strip
+def take_a_number(katz_deli, name)
+  katz_deli.push name
+
 puts "Welcome, #{input}. You are number #{index+1} in line."
   katz_deli.push(input)
   puts current_line
